@@ -18,7 +18,7 @@ public class RecordDTO {
     private String timeFrom;
     private String timeTo;
     private String title;
-    private int totalSalary;
+    private float totalSalary;
     private String type;
-    private int wage;
+    private float wage;
 }

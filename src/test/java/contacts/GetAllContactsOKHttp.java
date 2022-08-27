@@ -34,9 +34,7 @@ public class GetAllContactsOKHttp {
             System.out.println(dto.toString());
             System.out.println("******");
         }
-
     }
-
     @Test
     public void getAllContactWrongToken() throws IOException {
         Request request = new Request.Builder()

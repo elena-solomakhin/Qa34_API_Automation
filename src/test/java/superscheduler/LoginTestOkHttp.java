@@ -20,7 +20,7 @@ public class LoginTestOkHttp {
 
     @Test
     public void loginSuccess() throws IOException {
-        AuthRequestDtoSS auth = AuthRequestDtoSS.builder().email("noa@gmail.com").password("Nnoa12345$").build();
+        AuthRequestDtoSS auth = AuthRequestDtoSS.builder().email("moa@gmail.com").password("Nnoa12345$").build();
         RequestBody requestBody = RequestBody.create(gson.toJson(auth), JSON);
 
         Request request = new Request.Builder()
